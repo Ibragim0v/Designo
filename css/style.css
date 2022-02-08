@@ -179,17 +179,17 @@ img {
     border: none;
     outline: none;
   }
-
-  .header--open .header__burger {
-    display: none;
-  }
-  .header--open .header__close {
-    display: block;
-  }
-  .header--open .header__nav {
-    display: block;
-  }
 }
+.header--open .header__burger {
+  display: none;
+}
+.header--open .header__close {
+  display: block;
+}
+.header--open .header__nav {
+  display: block;
+}
+
 #showcase {
   position: relative;
 }

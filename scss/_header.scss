@@ -117,17 +117,17 @@
                   outline: none;
             }
       }
-      .header--open .header {
-            &__burger {
-                  display: none;
-              }
-          
-              &__close {
-                  display: block;
-              }
-      
-              &__nav {
-                  display: block;
-              }
-      }
+}
+.header--open .header {
+      &__burger {
+            display: none;
+        }
+    
+        &__close {
+            display: block;
+        }
+
+        &__nav {
+            display: block;
+        }
 }
