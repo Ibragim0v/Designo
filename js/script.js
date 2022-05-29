@@ -1,6 +1,6 @@
-var elHeader = document.querySelector(".header")
-var burgerBtn = document.querySelector(".header__menu")
+var elHeader = document.querySelector(".header");
+var elBtn = document.querySelector(".header__menu");
 
-burgerBtn.addEventListener("click", () => {
-    elHeader.classList.toggle(".header--open")
-})
+elBtn.addEventListener("click", () => {
+  elHeader.classList.toggle("header--open");
+});
